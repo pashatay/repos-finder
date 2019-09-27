@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mansalva', cursive;
+  background-image: url(logo.jpg);
+  background-size: cover;
+}
+
+input[type="text"] {
+  font-size: 1.5em;
+  padding: 5px;
+  font-family: 'Mansalva', cursive;
+}
+#bttn{
+ width: auto;
+ font-size: 2em;
+ border: none;
+ background: none;
+ color: white;
+ font-family: 'Mansalva', cursive;
+}
+#bttn:hover {
+  cursor: pointer;
+}
+#results{
+  background: green;
+  border: solid 2px white;
+}
+ol {
+  color: white;
+ margin: auto;
+ font-size: 1.2em;
+}
+h2{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+li, img {
+  max-width: 500px;
+}
+a {
+  color: white;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center'
+}
+h1{
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 5%;
+    font-size: 3em;
+}
+.error-message {
+    color: red;
+}
+form{
+  margin: auto;
+}
+label{
+  font-size: 2em;
+}
+
+.hidden {
+  display: none;
+}
